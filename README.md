@@ -1,5 +1,14 @@
 # Airline-Customer-Satisfaction
 
+![author](https://img.shields.io/static/v1?label=author&message=jhonatanslopes&color=<COLOR>&style=<STYLE>&logo=<LOGO>)
+
+![code](https://img.shields.io/static/v1?label=python&message=3.8&color=<COLOR>&style=for-the-badge&logo=<LOGO>)
+    
+![license](https://img.shields.io/static/v1?label=license&message=MIT&color=<COLOR>&style=for-the-badge&logo=<LOGO>)
+    
+![version](https://img.shields.io/static/v1?label=version&message=1.0&color=<COLOR>&style=for-the-badge&logo=<LOGO>)
+
+
 Análise da Satisfação dos Passageiros.
 
 <p align="center">
@@ -22,72 +31,76 @@ Pensando nisso, os CEOs e diretores, sentaram para discutir a respeito do grande
 
 # Entendimento do Problema
 
-### Motivação:
-    - Melhorar a experiência dos passageiros.
-     
-### Causa Raiz do problema:
-    Identificar o que deve ser melhorado visando garantir diminuir a insatisfação dos passageiros.
+* Motivação:
 
-### Formato da Entrega:
-    Arquivo Excel com os resultados da análise.
+    * Melhorar a experiência dos passageiros.
+     
+* Causa Raiz do problema:
+    * Identificar o que deve ser melhorado visando garantir diminuir a insatisfação dos passageiros.
+
+* Formato da Entrega:
+    * Arquivo Excel com os resultados da análise.
     
-### Dados para Resolver o Problema
-    Link: https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
+* Dados para Resolver o Problema
+    * Link: https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
     
 
 # Descrição dos Dados
 
 O Dataset usado para este projeto está no Kaggle. Ele contém 129880 linhas e 23 colunas. Os dados contém:
 
-Gender: Sexo do passageiro (Female, Male)
+<ins> </ins>
 
-Customer Type: O tipo do cliente (Loyal customer, disloyal customer)
+<ins>Gender:</ins> Sexo do passageiro (Female, Male)
 
-Age: Idade atual do passageiro
+<ins>Customer Type:</ins> O tipo do cliente (Loyal customer, disloyal customer)
 
-Type of Travel: Propósito de vôo do passageiro (Personal Travel, Business Travel)
+<ins>Age:</ins> Idade atual do passageiro
 
-Class: Classe do passageiro no avião (Business, Eco, Eco Plus)
+<ins>Type of Travel:</ins> Propósito de vôo do passageiro (Personal Travel, Business Travel)
 
-Flight distance: Distância em que o vôo terá
+<ins>Class:</ins> Classe do passageiro no avião (Business, Eco, Eco Plus)
 
-Inflight wifi service: Nivel de satisfação do Wifi (0:Not Applicable;1-5)
+<ins>Flight distance:</ins> Distância em que o vôo terá
 
-Departure/Arrival time convenient: Nivel de satisfação da hora partida/chegada conveniente
+<ins>Inflight wifi service:</ins> Nivel de satisfação do Wifi (0:Not Applicable;1-5)
 
-Ease of Online booking: Nivel de satisfação na reserva online
+<ins>Departure/Arrival time convenient:</ins> Nivel de satisfação da hora partida/chegada conveniente
 
-Gate location: Nivel de satisfação da distancia do portão de embarque
+<ins>Ease of Online booking:</ins> Nivel de satisfação na reserva online
 
-Food and drink: Nivel de satisfação da comida/bêbida
+<ins>Gate location:</ins> Nivel de satisfação da distancia do portão de embarque
 
-Online boarding: Nivel de satisfação do embarque online
+<ins>Food and drink:</ins> Nivel de satisfação da comida/bêbida
 
-Seat comfort: Nivel de satisfação do comforto da poltrona
+<ins>Online boarding:</ins> Nivel de satisfação do embarque online
 
-Inflight entertainment: Nivel de satisfação do entretenimento no Võo
+<ins>Seat comfort:</ins> Nivel de satisfação do comforto da poltrona
 
-On-board service: Nivel de satisfação do serviço de On-board
+<ins>Inflight entertainment:</ins> Nivel de satisfação do entretenimento no Võo
 
-Leg room service: Nivel de satisfação do serviço de quarto para pernas
+<ins>On-board service:</ins> Nivel de satisfação do serviço de On-board
 
-Baggage handling: Nivel de satisfação do manuseio das bagagens
+<ins>Leg room service:</ins> Nivel de satisfação do serviço de quarto para pernas
 
-Check-in service: Nivel de satisfação do serviço de checkin
+<ins>Baggage handling:</ins> Nivel de satisfação do manuseio das bagagens
 
-Cleanliness: Nivel de satisfação da limpeza
+<ins>Check-in service:</ins> Nivel de satisfação do serviço de checkin
 
-Departure Delay in Minutes: Atraso em minutos na partida 
+<ins>Cleanliness:</ins> Nivel de satisfação da limpeza
 
-Arrival Delay in Minutes: Atraso em minutos na chegada
+<ins>Departure Delay in Minutes:</ins> Atraso em minutos na partida 
 
-Satisfaction: Satisfação com a companhia aérea level(Satisfaction, dissatisfaction)
+<ins>Arrival Delay in Minutes:</ins> Atraso em minutos na chegada
 
+<ins>Satisfaction:</ins> Satisfação com a companhia aérea level(Satisfaction, dissatisfaction)
 
 
 # Feature Engineering
 
-As colunas com niveis de satisfação entre 1 e 5 foram alteradas para variaveis categóricas. Sendo 1 e 2 = Ruim, 3 = Mediano, 4 e 5 = Bom. 0 = Não possui. Foi criada a coluna **type_flight** a partir da distancia do vôo, onde vôos maiores que a distância média são considerados viagem longa e abaixo da média como viagem curta. E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as colunas: **type_departure_delay** e **type_arrival_delay**, possuindo a categória do atraso (curto, longo).
+As colunas com niveis de satisfação entre 1 e 5 foram alteradas para variaveis categóricas. Sendo 1 e 2 = Ruim, 3 = Mediano, 4 e 5 = Bom. 0 = Não possui. Foi criada a coluna **type_flight** a partir da distancia do vôo, onde vôos maiores que a distância média são considerados viagem longa e abaixo da média como viagem curta. 
+
+E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as colunas: **type_departure_delay** e **type_arrival_delay**, possuindo a categória do atraso (curto, longo).
 
 
 # Hipóteses Principais
