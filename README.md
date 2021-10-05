@@ -1,4 +1,4 @@
-![author](https://img.shields.io/static/v1?label=author&message=jhonatanslopes&color=red&style=for-the-badge&logo=<LOGO>) ![code](https://img.shields.io/static/v1?label=python&message=3.8&color=blue&style=for-the-badge&logo=<LOGO>)![license](https://img.shields.io/static/v1?label=license&message=MIT&color=<COLOR>&style=for-the-badge&logo=<LOGO>)![version](https://img.shields.io/static/v1?label=version&message=1.0&color=yellow&style=for-the-badge&logo=<LOGO>)
+![author](https://img.shields.io/static/v1?label=author&message=jhonatanslopes&color=red&style=for-the-badge&logo=<LOGO>) ![code](https://img.shields.io/static/v1?label=python&message=3.8&color=blue&style=for-the-badge&logo=<LOGO>) ![license](https://img.shields.io/static/v1?label=license&message=MIT&color=<COLOR>&style=for-the-badge&logo=<LOGO>) ![version](https://img.shields.io/static/v1?label=version&message=1.0&color=yellow&style=for-the-badge&logo=<LOGO>)
 
 
 # Airline-Customer-Satisfaction
@@ -6,7 +6,7 @@
 Análise da Satisfação dos Passageiros.
 
 <p align="center">
-  <img src="img/principal.png" width="350" title="img-principal">
+  <img src="img/principal.png" width="1000" title="img-principal">
 </p>
 
 
@@ -21,7 +21,7 @@ Pensando nisso, os CEOs e diretores, sentaram para discutir a respeito do grande
 Satisfação de passageiros da Airline:
 
 <p align="center">
-  <img src="img/satisfaction.JPG" width="350" title="img-satisfaction">
+  <img src="img/satisfaction.JPG" width="1000" title="img-satisfaction">
 </p>
 
 
@@ -106,7 +106,7 @@ E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as
 **FALSA** Passageiros com idade MAIOR que 30 anos possuem MAIOR satisfação.
 
 <p align="center">
-  <img src="img/age.JPG" width="350" title="img-age">
+  <img src="img/age.JPG" width="1000" title="img-age">
 </p>
 
 ### H20. Entre todos os serviços, o entretenimento do vôo é o pior.
@@ -114,7 +114,7 @@ E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as
 **FALSA** Entre todos os serviços, o conforto da poltrona é o PIOR.
 
 <p align="center">
-  <img src="img/service_bad.JPG" width="350" title="img-service-bad">
+  <img src="img/service_bad.JPG" width="1000" title="img-service-bad">
 </p>
 
 ### H21. Passageiros da classe Eco possuem maior problema com os serviços
@@ -122,7 +122,7 @@ E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as
 **VERDADEIRA** Passageiros da classe Eco possuem maior problema/insatisfação em 9 de 14 serviços.
 
 <p align="center">
-  <img src="img/class_service_bad.JPG" width="350" title="img-class">
+  <img src="img/class_service_bad.JPG" width="1000" title="img-class">
 </p>
 
 
@@ -153,7 +153,7 @@ Com as mudanças, é esperado que a satisfação dos passageiros aumente em 15%,
 Satisfação após a Airline realizar as melhorias:
 
 <p align="center">
-  <img src="img/result_satisfaction.JPG" width="350" title="img-satisfaction2">
+  <img src="img/result_satisfaction.JPG" width="1000" title="img-satisfaction2">
 </p>
 
 
@@ -162,5 +162,5 @@ Satisfação após a Airline realizar as melhorias:
 Arquivo Excel contendo as informações importantes aos diretores, como perfil dos passageiros que geram insatisfação e as melhorias necessárias.
 
 <p align="center">
-  <img src="img/report.JPG" width="350" title="img-report">
+  <img src="img/report.JPG" width="1000" title="img-report">
 </p>
