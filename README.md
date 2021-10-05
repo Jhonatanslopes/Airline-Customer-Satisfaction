@@ -1,13 +1,7 @@
+![author](https://img.shields.io/static/v1?label=author&message=jhonatanslopes&color=red&style=for-the-badge&logo=<LOGO>) ![code](https://img.shields.io/static/v1?label=python&message=3.8&color=blue&style=for-the-badge&logo=<LOGO>)![license](https://img.shields.io/static/v1?label=license&message=MIT&color=<COLOR>&style=for-the-badge&logo=<LOGO>)![version](https://img.shields.io/static/v1?label=version&message=1.0&color=yellow&style=for-the-badge&logo=<LOGO>)
+
+
 # Airline-Customer-Satisfaction
-
-![author](https://img.shields.io/static/v1?label=author&message=jhonatanslopes&color=<COLOR>&style=<STYLE>&logo=<LOGO>)
-
-![code](https://img.shields.io/static/v1?label=python&message=3.8&color=<COLOR>&style=for-the-badge&logo=<LOGO>)
-    
-![license](https://img.shields.io/static/v1?label=license&message=MIT&color=<COLOR>&style=for-the-badge&logo=<LOGO>)
-    
-![version](https://img.shields.io/static/v1?label=version&message=1.0&color=<COLOR>&style=for-the-badge&logo=<LOGO>)
-
 
 Análise da Satisfação dos Passageiros.
 
@@ -23,6 +17,8 @@ A muito tempo atrás, a companhia aérea, chamada Arline, era criada e fundada a
 O mercado de companhias aéreas é muito competitvo, pois normalmente o grande influenciador na hora da compra é o preço. Geralmente, isso define em qual companhia aérea o cliente optará. Contudo, após a compra, o que influencia se irá retornar a voar novamente na companhia é a experiencia que o cliente terá.
 
 Pensando nisso, os CEOs e diretores, sentaram para discutir a respeito do grande numero de clientes insastifeitos em seus vôos. Eles decidiram que precisam melhorar/mudar seus serviços. Para isso, querem uma análise para identificar as causas das insatisfações e o que deverá ser melhorarado ou mudado.
+
+Satisfação de passageiros da Airline:
 
 <p align="center">
   <img src="img/satisfaction.JPG" width="350" title="img-satisfaction">
@@ -41,7 +37,7 @@ Pensando nisso, os CEOs e diretores, sentaram para discutir a respeito do grande
 * Formato da Entrega:
     * Arquivo Excel com os resultados da análise.
     
-* Dados para Resolver o Problema
+* Dados para Resolver o Problema:
     * Link: https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
     
 
@@ -132,8 +128,6 @@ E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as
 
 # Resultado
 
-Melhorias a serem feitas:
-
 **Melhorias classe Eco:** 
 
 - Conforto da poltrona
@@ -156,12 +150,16 @@ Com base nisso, colocando o preço do litro como 3,50 de reais e a média de dis
 
 Com as mudanças, é esperado que a satisfação dos passageiros aumente em 15%, aumentando o atual percentual de 54% para 69% de satisfação. A airline gastará 83.202 de reais (1 vôo) para atribuir uma boa experiência, ao invés de 998.424 reais (12 vôos), economizando então, 914.616 em reais para fidelizar um cliente.
 
+Satisfação após a Airline realizar as melhorias:
+
 <p align="center">
   <img src="img/result_satisfaction.JPG" width="350" title="img-satisfaction2">
 </p>
 
 
 # Entrega da Solução
+
+Arquivo Excel contendo as informações importantes aos diretores, como perfil dos passageiros que geram insatisfação e as melhorias necessárias.
 
 <p align="center">
   <img src="img/report.JPG" width="350" title="img-report">
