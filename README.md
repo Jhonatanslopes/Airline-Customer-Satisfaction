@@ -3,23 +3,23 @@
 
 # Airline-Customer-Satisfaction
 
-<!--ts-->
-   * [Contexto do Problema](#Problema)
-   * [Entendimento do Problema](#Entendimento)
-   * [Descrição dos Dados](#Dados)
-   * [Feature Engineering](#Feature Engineering)
-   * [Hipóteses Principais](#Hipóteses Principais)
-   * [Resultado](#Resultado)
-   * [Entrega da Solução](#Entrega da Solução)
-<!--te-->
-
-
 
 Análise da Satisfação dos Passageiros.
 
 <p align="center">
   <img src="img/principal.png" width="1000" title="img-principal">
 </p>
+
+
+<!--ts-->
+   * [Contexto-do-Problema](#Problema)
+   * [Entendimento-do-Problema](#Entendimento)
+   * [Descrição-dos-Dados](#Dados)
+   * [Feature-Engineering](#Feature Engineering)
+   * [Hipóteses-Principais](#Hipóteses Principais)
+   * [Resultado](#Resultado)
+   * [Entrega-da-Solução](#Entrega da Solução)
+<!--te-->
 
 
 # Contexto do Problema
@@ -50,37 +50,37 @@ Satisfação de passageiros da Airline:
     * Arquivo Excel com os resultados da análise.
     
 * Dados para Resolver o Problema:
-    * Download [aqui](https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction).
+    * Os dados podem ser encontrados [aqui](https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction).
     
 
 # Descrição dos Dados
 
 O Dataset usado para este projeto está no Kaggle. Ele contém 129880 linhas e 23 colunas. Os dados contém:
 
-| Atributo | Significado |
-|---------- ------------ |
-| Gender | Sexo do passageiro (Female, Male) |
-| Customer Type | O tipo do cliente (Loyal customer, disloyal customer) |
-| Age | Idade atual do passageiro |
-| Type of Travel | Propósito de vôo do passageiro (Personal Travel, Business Travel) |
-| Class | Classe do passageiro no avião (Business, Eco, Eco Plus) |
-| Flight distance | Distância em que o vôo terá |
-| flight wifi service | Nivel de satisfação do Wifi (0:Not Applicable;1-5) |
-| Departure/Arrival time convenient | Nivel de satisfação da hora partida/chegada conveniente |
-| Ease of Online booking | Nivel de satisfação na reserva online |
-| Gate location | Nivel de satisfação da distancia do portão de embarque |
-| Food and drink | Nivel de satisfação da comida/bêbida |
-| Online boarding:</ins> Nivel | satisfação do embarque online |
-| Seat comfort:</ins> Nivel | satisfação do comforto da poltrona |
-| Inflight entertainment | Nivel de satisfação do entretenimento no Võo |
-| On-board service | Nivel de satisfação do serviço de On-board |
-| Leg room service | Nivel de satisfação do serviço de quarto para pernas |
-| Baggage handling | Nivel de satisfação do manuseio das bagagens |
-| Check-in service | Nivel de satisfação do serviço de checkin |
-| Cleanliness | Nivel de satisfação da limpeza |
-| Departure Delay in Minutes | Atraso em minutos na partida |
-| Arrival Delay in Minutes | Atraso em minutos na chegada |
-| Satisfaction |Satisfação com a companhia aérea level(Satisfaction, dissatisfaction) |
+|            Atributo               |                          Significado                                  |
+|-----------------------------------|-----------------------------------------------------------------------|
+| Gender                            | Sexo do passageiro (Female, Male)                                     |
+| Customer Type                     | O tipo do cliente (Loyal customer, disloyal customer)                 |
+| Age                               | Idade atual do passageiro                                             |
+| Type of Travel                    | Propósito de vôo do passageiro (Personal Travel, Business Travel)     |
+| Class                             | Classe do passageiro no avião (Business, Eco, Eco Plus)               |
+| Flight distance                   | Distância em que o vôo terá                                           |
+| flight wifi service               | Nivel de satisfação do Wifi (0:Not Applicable;1-5)                    |
+| Departure/Arrival time convenient | Nivel de satisfação da hora partida/chegada conveniente               |
+| Ease of Online booking            | Nivel de satisfação na reserva online                                 |
+| Gate location                     | Nivel de satisfação da distancia do portão de embarque                |
+| Food and drink                    | Nivel de satisfação da comida/bêbida                                  |
+| Online boarding                   | Nivel satisfação do embarque online                                   |
+| Seat comfort                      | Nivel satisfação do comforto da poltrona                              |
+| Inflight entertainment            | Nivel de satisfação do entretenimento no Võo                          |
+| On-board service                  | Nivel de satisfação do serviço de On-board                            |
+| Leg room service                  | Nivel de satisfação do serviço de quarto para pernas                  |
+| Baggage handling                  | Nivel de satisfação do manuseio das bagagens                          |
+| Check-in service                  | Nivel de satisfação do serviço de checkin                             |
+| Cleanliness                       | Nivel de satisfação da limpeza                                        |
+| Departure Delay in Minutes        | Atraso em minutos na partida                                          |
+| Arrival Delay in Minutes          | Atraso em minutos na chegada                                          |
+| Satisfaction                      | Satisfação com a companhia aérea level(Satisfaction, dissatisfaction) |
 
 
 # Feature Engineering
