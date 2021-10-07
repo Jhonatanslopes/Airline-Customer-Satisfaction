@@ -14,11 +14,11 @@ Análise da Satisfação dos Passageiros.
 <!--ts-->
    * [Problema](#Contexto-do-Problema)
    * [Entendimento do Problema](#Entendimento-do-Problema)
-   * [Dados](#Descrição-dos-Dados)
+   * [Dados](#Descricao-dos-Dados)
    * [Feature Engineering](#Feature-Engineering)
-   * [Hipóteses Principais](#Hipóteses-Principais)
+   * [Hipóteses Principais](#Hipoteses-Principais)
    * [Resultado](#Resultado)
-   * [Entrega da Solução](#Entrega-da-Solução)
+   * [Entrega da Solução](#Entrega-da-Solucao)
 <!--te-->
 
 
