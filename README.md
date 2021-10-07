@@ -3,6 +3,18 @@
 
 # Airline-Customer-Satisfaction
 
+<!--ts-->
+   * [Contexto do Problema](#Problema)
+   * [Entendimento do Problema](#Entendimento)
+   * [Descrição dos Dados](#Dados)
+   * [Feature Engineering](#Feature Engineering)
+   * [Hipóteses Principais](#Hipóteses Principais)
+   * [Resultado](#Resultado)
+   * [Entrega da Solução](#Entrega da Solução)
+<!--te-->
+
+
+
 Análise da Satisfação dos Passageiros.
 
 <p align="center">
@@ -38,58 +50,37 @@ Satisfação de passageiros da Airline:
     * Arquivo Excel com os resultados da análise.
     
 * Dados para Resolver o Problema:
-    * Link: https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
+    * Download [aqui](https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction).
     
 
 # Descrição dos Dados
 
 O Dataset usado para este projeto está no Kaggle. Ele contém 129880 linhas e 23 colunas. Os dados contém:
 
-<ins> </ins>
-
-<ins>Gender:</ins> Sexo do passageiro (Female, Male)
-
-<ins>Customer Type:</ins> O tipo do cliente (Loyal customer, disloyal customer)
-
-<ins>Age:</ins> Idade atual do passageiro
-
-<ins>Type of Travel:</ins> Propósito de vôo do passageiro (Personal Travel, Business Travel)
-
-<ins>Class:</ins> Classe do passageiro no avião (Business, Eco, Eco Plus)
-
-<ins>Flight distance:</ins> Distância em que o vôo terá
-
-<ins>Inflight wifi service:</ins> Nivel de satisfação do Wifi (0:Not Applicable;1-5)
-
-<ins>Departure/Arrival time convenient:</ins> Nivel de satisfação da hora partida/chegada conveniente
-
-<ins>Ease of Online booking:</ins> Nivel de satisfação na reserva online
-
-<ins>Gate location:</ins> Nivel de satisfação da distancia do portão de embarque
-
-<ins>Food and drink:</ins> Nivel de satisfação da comida/bêbida
-
-<ins>Online boarding:</ins> Nivel de satisfação do embarque online
-
-<ins>Seat comfort:</ins> Nivel de satisfação do comforto da poltrona
-
-<ins>Inflight entertainment:</ins> Nivel de satisfação do entretenimento no Võo
-
-<ins>On-board service:</ins> Nivel de satisfação do serviço de On-board
-
-<ins>Leg room service:</ins> Nivel de satisfação do serviço de quarto para pernas
-
-<ins>Baggage handling:</ins> Nivel de satisfação do manuseio das bagagens
-
-<ins>Check-in service:</ins> Nivel de satisfação do serviço de checkin
-
-<ins>Cleanliness:</ins> Nivel de satisfação da limpeza
-
-<ins>Departure Delay in Minutes:</ins> Atraso em minutos na partida 
-
-<ins>Arrival Delay in Minutes:</ins> Atraso em minutos na chegada
-
-<ins>Satisfaction:</ins> Satisfação com a companhia aérea level(Satisfaction, dissatisfaction)
+| Atributo | Significado |
+|---------- ------------ |
+| Gender | Sexo do passageiro (Female, Male) |
+| Customer Type | O tipo do cliente (Loyal customer, disloyal customer) |
+| Age | Idade atual do passageiro |
+| Type of Travel | Propósito de vôo do passageiro (Personal Travel, Business Travel) |
+| Class | Classe do passageiro no avião (Business, Eco, Eco Plus) |
+| Flight distance | Distância em que o vôo terá |
+| flight wifi service | Nivel de satisfação do Wifi (0:Not Applicable;1-5) |
+| Departure/Arrival time convenient | Nivel de satisfação da hora partida/chegada conveniente |
+| Ease of Online booking | Nivel de satisfação na reserva online |
+| Gate location | Nivel de satisfação da distancia do portão de embarque |
+| Food and drink | Nivel de satisfação da comida/bêbida |
+| Online boarding:</ins> Nivel | satisfação do embarque online |
+| Seat comfort:</ins> Nivel | satisfação do comforto da poltrona |
+| Inflight entertainment | Nivel de satisfação do entretenimento no Võo |
+| On-board service | Nivel de satisfação do serviço de On-board |
+| Leg room service | Nivel de satisfação do serviço de quarto para pernas |
+| Baggage handling | Nivel de satisfação do manuseio das bagagens |
+| Check-in service | Nivel de satisfação do serviço de checkin |
+| Cleanliness | Nivel de satisfação da limpeza |
+| Departure Delay in Minutes | Atraso em minutos na partida |
+| Arrival Delay in Minutes | Atraso em minutos na chegada |
+| Satisfaction |Satisfação com a companhia aérea level(Satisfaction, dissatisfaction) |
 
 
 # Feature Engineering
@@ -117,7 +108,7 @@ E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as
   <img src="img/service_bad.JPG" width="1000" title="img-service-bad">
 </p>
 
-### H21. Passageiros da classe Eco possuem maior problema com os serviços
+### H21. Passageiros da classe Eco possuem maior problema com os serviços.
 
 **VERDADEIRA** Passageiros da classe Eco possuem maior problema/insatisfação em 9 de 14 serviços.
 
@@ -141,6 +132,7 @@ E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as
 - Comida/bêbida
 - Previsão horário de chegada/partida conveniente
 - Localização do portão de embarque.
+
 
 **Retorno ao negócio**
 
