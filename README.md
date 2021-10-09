@@ -85,7 +85,7 @@ O Dataset usado para este projeto está no Kaggle. Ele contém 129880 linhas e 2
 
 # Feature Engineering
 
-As colunas com niveis de satisfação entre 1 e 5 foram alteradas para variaveis categóricas. Sendo 1 e 2 = Ruim, 3 = Mediano, 4 e 5 = Bom. 0 = Não possui. Foi criada a coluna **type_flight** a partir da distancia do vôo, onde vôos maiores que a distância média são considerados viagem longa e abaixo da média como viagem curta. 
+As colunas com niveis de satisfação entre 1 e 5 foram alteradas para variaveis categóricas. Sendo 0, 1 e 2 = Ruim, 3 = Mediano, 4 e 5 = Bom. Foi criada a coluna **type_flight** a partir da distancia do vôo, onde vôos maiores que a distância média são considerados viagem longa e abaixo da média como viagem curta. 
 
 E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as colunas: **type_departure_delay** e **type_arrival_delay**, possuindo a categória do atraso (curto, longo).
 
@@ -136,7 +136,7 @@ E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as
 
 **Retorno ao negócio**
 
-Uma pesquisa realizada nos EUA comprova que são necessárias 12 novas experiências positivas para reparar o(s) dano(s) causado(s) por uma experiência negativa e segundo a Airbus, um avião comercial consome, em média, 12 litros a cada quilômetro.
+Uma [pesquisa](https://administradores.com.br/noticias/quanto-custa-uma-experiencia-negativa-para-o-seu-cliente) realizada nos EUA comprova que são necessárias 12 novas experiências positivas para reparar o(s) dano(s) causado(s) por uma experiência negativa e segundo a [Airbus](https://economia.uol.com.br/noticias/redacao/2019/09/20/como-avioes-decolam-e-pousam-video-airbus.htm#:~:text=Segundo%20a%20Airbus%2C%20um%20avi%C3%A3o%20comercial%20consome%2C%20em,de%20rodar%2012%20quil%C3%B4metros%20com%20apenas%20um%20litro), um avião comercial consome, em média, 12 litros a cada quilômetro.
 
 Com base nisso, colocando o preço do litro como 3,50 de reais e a média de distância de vôo da Airline sendo 1981km. Gastaria em cerca de 83.202 de reais somente de gasolina para 1 vôo. Para cada cliente insatisfeito é necessário 12 novos Vôos para reparar, equivalendo à R$998.424.
 
@@ -151,8 +151,8 @@ Satisfação após a Airline realizar as melhorias:
 
 # Entrega da Solução
 
-Arquivo Excel contendo as informações importantes aos diretores, como perfil dos passageiros que geram insatisfação e as melhorias necessárias.
+Para o entrgável dos resultados, será uma apresentação contendo as informações importantes aos diretores, contendo os principais resultados. Acesso a apresentação [aqui](https://docs.google.com/presentation/d/1-PzGfACghqcaRGJBPD0fRvxcxUa35MWxPRUaIivjelQ/edit?usp=sharing).
 
 <p align="center">
-  <img src="img/report.JPG" width="1000" title="img-report">
+  <img src="img/apresentation.JPG" width="1000" title="img-report">
 </p>
