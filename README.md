@@ -4,27 +4,29 @@
 # Airline-Customer-Satisfaction
 
 
-Análise da Satisfação dos Passageiros.
+Análise de Satisfação dos Passageiros.
 
 <p align="center">
   <img src="img/principal.png" width="1000" title="img-principal">
 </p>
 
 
+## Conteúdo
+
 <!--ts-->
-   * [Problema](#Contexto-do-Problema)
-   * [Entendimento do Problema](#Entendimento-do-Problema)
-   * [Dados](#Descricao-dos-Dados)
-   * [Feature Engineering](#Feature-Engineering)
-   * [Hipóteses Principais](#Hipoteses-Principais)
-   * [Resultado](#Resultado)
-   * [Entrega da Solução](#Entrega-da-Solucao)
+   1. [Problema](#Contexto-do-Problema)
+   2. [Entendimento do Problema](#Entendimento-do-Problema)
+   3. [Dados](#Descricao-dos-Dados)
+   4. [Feature Engineering](#Feature-Engineering)
+   5. [Hipóteses Principais](#Hipoteses-Principais)
+   6. [Resultado](#Resultado)
+   7. [Entrega da Solução](#Entrega-da-Solucao)
 <!--te-->
 
 
 # Contexto do Problema
 
-A muito tempo atrás, a companhia aérea, chamada Arline, era criada e fundada através da paixão de dois empreendedores por aviões. O maior objetivo, era entregar vôos que ficassem na memória dos clientes devido a alta qualidade. Depois de um tempo, os donos tiveram problemas com o conselho administrativo e foi decidio que ambos deixariam de atuar como CEO e estar a frente de toda operação. Depois de 2 anos, os donos voltam como CEOs, na expectativa de transformar a companhia aérea e trazer de volta os valores da alta qualidade e experiência dada aos clientes em seus vôos. 
+Muito tempo atrás, a companhia aérea, chamada Arline, era criada e fundada através da paixão de dois empreendedores por aviões. O maior objetivo, era entregar vôos que ficassem na memória dos clientes devido a alta qualidade. Depois de um tempo, os donos tiveram problemas com o conselho administrativo e foi decidio que ambos deixariam de atuar como CEO e estar a frente de toda operação. Depois de 2 anos, os donos voltam como CEOs, na expectativa de transformar a companhia aérea e trazer de volta os valores da alta qualidade e experiência dada aos clientes em seus vôos. 
 
 O mercado de companhias aéreas é muito competitvo, pois normalmente o grande influenciador na hora da compra é o preço. Geralmente, isso define em qual companhia aérea o cliente optará. Contudo, após a compra, o que influencia se irá retornar a voar novamente na companhia é a experiencia que o cliente terá.
 
@@ -47,7 +49,7 @@ Satisfação de passageiros da Airline:
     * Identificar o que deve ser melhorado visando garantir diminuir a insatisfação dos passageiros.
 
 * Formato da Entrega:
-    * Arquivo Excel com os resultados da análise.
+    * Apresentação contendo os resultados da análise.
     
 * Dados para Resolver o Problema:
     * Os dados podem ser encontrados [aqui](https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction).
@@ -100,7 +102,7 @@ E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as
   <img src="img/age.JPG" width="1000" title="img-age">
 </p>
 
-### H20. Entre todos os serviços, o entretenimento do vôo é o pior.
+### H19. Entre todos os serviços, o entretenimento do vôo é o pior.
 
 **FALSA** Entre todos os serviços, o conforto da poltrona é o PIOR.
 
@@ -108,7 +110,7 @@ E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as
   <img src="img/service_bad.JPG" width="1000" title="img-service-bad">
 </p>
 
-### H21. Passageiros da classe Eco possuem maior problema com os serviços.
+### H20. Passageiros da classe Eco possuem maior problema com os serviços.
 
 **VERDADEIRA** Passageiros da classe Eco possuem maior problema/insatisfação em 9 de 14 serviços.
 
