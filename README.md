@@ -1,66 +1,64 @@
-![author](https://img.shields.io/static/v1?label=author&message=jhonatanslopes&color=red&style=for-the-badge&logo=<LOGO>) ![code](https://img.shields.io/static/v1?label=python&message=3.8&color=blue&style=for-the-badge&logo=<LOGO>) ![license](https://img.shields.io/static/v1?label=license&message=MIT&color=<COLOR>&style=for-the-badge&logo=<LOGO>) ![version](https://img.shields.io/static/v1?label=version&message=1.0&color=yellow&style=for-the-badge&logo=<LOGO>)
-
+![author](https://img.shields.io/static/v1?label=author&message=jhonatanslopes&color=red&style=for-the-badge&logo=<LOGO>) ![code](https://img.shields.io/static/v1?label=python&message=3.8&color=blue&style=for-the-badge&logo=<LOGO>) ![license](https://img.shields.io/static/v1?label=license&message=MIT&color=<COLOR>&style=for-the-badge&logo=<LOGO>) ![version](https://img.shields.io/static/v1?label=version&message=2.0&color=yellow&style=for-the-badge&logo=<LOGO>)
 
 # Airline-Customer-Satisfaction
-
 
 Análise de Satisfação dos Passageiros.
 
 <p align="center">
-  <img src="img/principal.png" width="1000" title="img-principal">
+  <img src="img/airline.jpg" width="1000" title="img-principal">
 </p>
-
 
 ## Conteúdo
 
 <!--ts-->
-   1. [Problema](#Contexto-do-Problema)
-   2. [Entendimento do Problema](#Entendimento-do-Problema)
-   3. [Dados](#Descricao-dos-Dados)
-   4. [Feature Engineering](#Feature-Engineering)
-   5. [Hipóteses Principais](#Hipoteses-Principais)
-   6. [Resultado](#Resultado)
-   7. [Entrega da Solução](#Entrega-da-Solucao)
-<!--te-->
 
+1.  [Problema](#Contexto-do-Problema)
+2.  [Entendimento do Problema](#Entendimento-do-Problema)
+3.  [Dados](#Descricao-dos-Dados)
+4.  [Planejamento da Solução](#Planejamento-da-Solução)
+5.  [Hipóteses Principais](#Hipoteses-Principais)
+6.  [Resultado](#Resultado)
+7.  [Entrega da Solução](#Entrega-da-Solucao)
+<!--te-->
 
 # Contexto do Problema
 
-Muito tempo atrás, a companhia aérea, chamada Arline, era criada e fundada através da paixão de dois empreendedores por aviões. O maior objetivo, era entregar vôos que ficassem na memória dos clientes devido a alta qualidade. Depois de um tempo, os donos tiveram problemas com o conselho administrativo e foi decidio que ambos deixariam de atuar como CEO e estar a frente de toda operação. Depois de 2 anos, os donos voltam como CEOs, na expectativa de transformar a companhia aérea e trazer de volta os valores da alta qualidade e experiência dada aos clientes em seus vôos. 
+A **Airline** é uma companhia aérea que tem como modelo de negócio vender passagens aéreas e levar pessoas até o destino de suas viagens e seu diferencial competitivo é o preço baixo em comparação com o mercado. Em uma reunião, os diretores notaram que os preços da concorrência estavam igualando ao da Airline, e agora a missão é se diferenciar com experiência do cliente.
 
-O mercado de companhias aéreas é muito competitvo, pois normalmente o grande influenciador na hora da compra é o preço. Geralmente, isso define em qual companhia aérea o cliente optará. Contudo, após a compra, o que influencia se irá retornar a voar novamente na companhia é a experiencia que o cliente terá.
+Como resultado, foi identificado que 45% dos passageiros são insatisfeitos e o objetivo é diminuir a taxa de insatisfação. Eles decidiram que precisam melhorar/mudar seus serviços e, para isso, querem uma análise para identificar as causas das insatisfações e o que deverá ser melhorarado ou mudado.
 
-Pensando nisso, os CEOs e diretores, sentaram para discutir a respeito do grande numero de clientes insastifeitos em seus vôos. Eles decidiram que precisam melhorar/mudar seus serviços. Para isso, querem uma análise para identificar as causas das insatisfações e o que deverá ser melhorarado ou mudado.
-
-Satisfação de passageiros da Airline:
+Satisfação dos passageiros da Airline:
 
 <p align="center">
   <img src="img/satisfaction.JPG" width="1000" title="img-satisfaction">
 </p>
 
-
 # Entendimento do Problema
 
-* Motivação:
+#### **Motivação:**
 
-    * Melhorar a experiência dos passageiros.
-     
-* Causa Raiz do problema:
-    * Identificar o que deve ser melhorado visando garantir diminuir a insatisfação dos passageiros.
+- Conseguir manter um diferencial competitivo em comparação com outras companhias aéreas.
 
-* Formato da Entrega:
-    * Apresentação contendo os resultados da análise.
-    
-* Dados para Resolver o Problema:
-    * Os dados podem ser encontrados [aqui](https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction).
-    
+#### **Causa Raiz do Problema:**
+
+- Alta taxa de passageiros insatisfeitos.
+
+#### **Entrega da Solução:**
+
+- Lista dos 5 serviços que mais causam insatisfação.
+- Sugestões de quais serviços devem ser melhorados.
+- Dashboard para acompanhamento da satisfação.
+
+#### **Dados para Resolver o Problema:**
+
+- Os dados estão no Kaggle e podem ser encontrados [aqui](https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction).
 
 # Descrição dos Dados
 
-O Dataset usado para este projeto está no Kaggle. Ele contém 129880 linhas e 23 colunas. Os dados contém:
+O Dataset usado para este projeto possui 129880 linhas e 23 colunas. Os dados contém:
 
-|            Atributo               |                          Significado                                  |
-|-----------------------------------|-----------------------------------------------------------------------|
+| Atributo                          | Significado                                                           |
+| --------------------------------- | --------------------------------------------------------------------- |
 | Gender                            | Sexo do passageiro (Female, Male)                                     |
 | Customer Type                     | O tipo do cliente (Loyal customer, disloyal customer)                 |
 | Age                               | Idade atual do passageiro                                             |
@@ -84,13 +82,38 @@ O Dataset usado para este projeto está no Kaggle. Ele contém 129880 linhas e 2
 | Arrival Delay in Minutes          | Atraso em minutos na chegada                                          |
 | Satisfaction                      | Satisfação com a companhia aérea level(Satisfaction, dissatisfaction) |
 
+# Planejamento da Solução
 
-# Feature Engineering
+**1. Coletar os dados:**
 
-As colunas com niveis de satisfação entre 1 e 5 foram alteradas para variaveis categóricas. Sendo 0, 1 e 2 = Ruim, 3 = Mediano, 4 e 5 = Bom. Foi criada a coluna **type_flight** a partir da distancia do vôo, onde vôos maiores que a distância média são considerados viagem longa e abaixo da média como viagem curta. 
+- Carregar o conjunto de dados que será utlizado.
 
-E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as colunas: **type_departure_delay** e **type_arrival_delay**, possuindo a categória do atraso (curto, longo).
+**2. Limpar os dados:**
 
+- Entender as variáveis disponíveis
+- Verificar possíveis valores faltantes e inconsistências.
+
+**3. Entender os dados:**
+
+- Realizar uma estatística descritiva para entender as características dos dados.
+
+**4. Levantar Hipóteses:**
+
+- Criar Hipóteses sobre as características e o comportamento da satisfação dos passageiros.
+
+**5. Realizar Análise Exploratória de Dados:**
+
+- Validar ou refutar as hipóteses através dos dados.
+- Identificar correlação entre variáveis e a variável de satisfação.
+- Obter insights.
+
+**6. Escrever os Insights encontrados:**
+
+- Demonstração das descobertas.
+
+**7. Escrever possíveis soluções para o problema da Airline:**
+
+- Dashboard de acompanhamento e melhorias a serem feitas.
 
 # Hipóteses Principais
 
@@ -99,62 +122,82 @@ E, ainda, a partir dos dois tipos de atrasos, partida e chegada, foram criada as
 **FALSA** Passageiros com idade MAIOR que 30 anos possuem MAIOR satisfação.
 
 <p align="center">
-  <img src="img/age.JPG" width="1000" title="img-age">
+  <img src="img/image_h1.JPG" width="1000" title="img-age">
 </p>
 
-### H19. Entre todos os serviços, o entretenimento do vôo é o pior.
+### H3. Passageiros da classe Business possuem maior satisfação.
 
-**FALSA** Entre todos os serviços, o conforto da poltrona é o PIOR.
+**VERDADEIRA** Passageiros da classe Business possuem MAIOR satisfação.
 
 <p align="center">
-  <img src="img/service_bad.JPG" width="1000" title="img-service-bad">
+  <img src="img/image_h3.JPG" width="1000" title="img-service-bad">
 </p>
 
-### H20. Passageiros da classe Eco possuem maior problema com os serviços.
+### H8. Quanto maior a nota de entretenimento no vôo, menor é a insatisfação.
 
-**VERDADEIRA** Passageiros da classe Eco possuem maior problema/insatisfação em 9 de 14 serviços.
+**VERDADEIRA** Quando a nota do entretenimento nos vôo chega em 4 ou 5, menor é a insatisfação em realação a satisfação.
 
 <p align="center">
-  <img src="img/class_service_bad.JPG" width="1000" title="img-class">
+  <img src="img/image_h8.JPG" width="1000" title="img-class">
 </p>
 
+### H11. Quanto maior a nota da comida e bebida no vôo, menor é a insatisfação.
+
+**VERDADEIRA** Quanto maior a nota da comida e bebida no vôo, menor é a insatisfação.
+
+**VERDADEIRA** Quando a nota do entretenimento nos vôo chega em 4 ou 5, menor é a insatisfação em realação a satisfação.
+
+<p align="center">
+  <img src="img/image_h11.JPG" width="1000" title="img-class">
+</p>
 
 # Resultado
 
-**Melhorias classe Eco:** 
+## Perfil de passageiros insatisfeitos.
 
-- Conforto da poltrona
-- Comida/bêbida
-- Previsão horário de chegada/partida conveniente
-- Entretenimento.
+- **Classe:** Eco.
 
-**Melhorias classe Business:** 
+- **Viagens:** Pessoais e de Negócios.
 
-- Conforto da proltrona
-- Comida/bêbida
-- Previsão horário de chegada/partida conveniente
-- Localização do portão de embarque.
+- **Idade:** Passageiros com idade maior que 30 anos.
 
+- **Sexo:** Maior parte masculinos.
 
-**Retorno ao negócio**
+- **Tipo:** Clientes fiéis.
 
-Uma [pesquisa](https://administradores.com.br/noticias/quanto-custa-uma-experiencia-negativa-para-o-seu-cliente) realizada nos EUA comprova que são necessárias 12 novas experiências positivas para reparar o(s) dano(s) causado(s) por uma experiência negativa e segundo a [Airbus](https://economia.uol.com.br/noticias/redacao/2019/09/20/como-avioes-decolam-e-pousam-video-airbus.htm#:~:text=Segundo%20a%20Airbus%2C%20um%20avi%C3%A3o%20comercial%20consome%2C%20em,de%20rodar%2012%20quil%C3%B4metros%20com%20apenas%20um%20litro), um avião comercial consome, em média, 12 litros a cada quilômetro.
+## Lista dos 5 serviços que mais causam insatisfação.
 
-Com base nisso, colocando o preço do litro como 3,50 de reais e a média de distância de vôo da Airline sendo 1981km. Gastaria em cerca de 83.202 de reais somente de gasolina para 1 vôo. Para cada cliente insatisfeito é necessário 12 novos Vôos para reparar, equivalendo à R$998.424.
+- Conforto da poltrona.
+- Comida e bebida.
+- Localização do portão.
+- Previsão de chegada/partida do avião.
+- Serviço WIFI
 
-Com as mudanças, é esperado que a satisfação dos passageiros aumente em 15%, aumentando o atual percentual de 54% para 69% de satisfação. A airline gastará 83.202 de reais (1 vôo) para atribuir uma boa experiência, ao invés de 998.424 reais (12 vôos), economizando então, 914.616 em reais para fidelizar um cliente.
+## Sugestões de melhorias.
 
-Satisfação após a Airline realizar as melhorias:
+Levando em consideração melhorias que será necessário baixo investimento e que ainda levará a um aumento de 15% na satisfação:
+
+**Melhorias a serem feitas**:
+
+- Comida e Bebida.
+- Tempo de previsão chegada/saída do avião.
+- Embarque online dos passageiros.
+- Entretenimento no vôo.
+
+## Retorno.
+
+Satisfação esperada após a Airline realizar as melhorias:
 
 <p align="center">
   <img src="img/result_satisfaction.JPG" width="1000" title="img-satisfaction2">
 </p>
 
-
 # Entrega da Solução
 
-Para o entrgável dos resultados, será uma apresentação contendo as informações importantes aos diretores, contendo os principais resultados. Acesso a apresentação [aqui](https://docs.google.com/presentation/d/1-PzGfACghqcaRGJBPD0fRvxcxUa35MWxPRUaIivjelQ/edit?usp=sharing).
+Dashboard para acompanhamento da satisfação dos passageiros com obetivo de garatir que as melhorias feitas estará gerando bons resultados.
+
+O Dashboard pode ser acessado [aqui](https://app.powerbi.com/view?r=eyJrIjoiYmZjMTMyZTgtMzI1Ni00N2FlLThjZGQtNTU2Y2VkMzhhMWJjIiwidCI6ImE2NWZjMjIxLWZhOGMtNGI0Yy1iMjJiLTJjYzExOGMyNTMxZiJ9&pageName=ReportSection77b4f8a7555d7590089a).
 
 <p align="center">
-  <img src="img/apresentation.JPG" width="1000" title="img-report">
+  <img src="img/dashboard.JPG" width="1000" title="img-report">
 </p>
