@@ -145,8 +145,6 @@ O Dataset usado para este projeto possui 129880 linhas e 23 colunas. Os dados co
 
 **VERDADEIRA** Quanto maior a nota da comida e bebida no vôo, menor é a insatisfação.
 
-**VERDADEIRA** Quando a nota do entretenimento nos vôo chega em 4 ou 5, menor é a insatisfação em realação a satisfação.
-
 <p align="center">
   <img src="img/image_h11.JPG" width="1000" title="img-class">
 </p>
